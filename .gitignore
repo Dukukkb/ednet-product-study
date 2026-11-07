@@ -1,0 +1,10 @@
+data/
+work/
+__pycache__/
+.venv/
+.DS_Store
+архив-tableau/
+.env
+.env.*
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,362 @@
+{
+  "sampling": {
+    "seed": 20261103,
+    "population_files": 297915,
+    "sample_users": 20000,
+    "events": 5992289,
+    "sampling": "случайная выборка файлов пользователей без возвращения; упорядоченные имена, Python random.Random.sample",
+    "questions_sha256": "137d2936b746c98e1586ef134bf9f9bc4b5a878c96b88e630b2241fe9f15d3cd"
+  },
+  "raw_events": 5992289,
+  "unique_users": 20000,
+  "last_event_ms_shifted": 1574865499813,
+  "source_time_reversals": 0,
+  "same_timestamp_neighbors": 4275,
+  "attempts": {
+    "total": 1112304,
+    "unknown": 118406,
+    "wrong": 378385,
+    "correct": 615513
+  },
+  "sample_flow": [
+    {
+      "session_gap_min": 15,
+      "users_first_diagnosis_error": 18434
+    },
+    {
+      "session_gap_min": 30,
+      "users_first_diagnosis_error": 18449
+    },
+    {
+      "session_gap_min": 60,
+      "users_first_diagnosis_error": 18466
+    }
+  ],
+  "retention": [
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 0,
+      "metric": "D1",
+      "continued": false,
+      "users": 636,
+      "returned": 17,
+      "percent": 2.6729559748427674
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 0,
+      "metric": "D1",
+      "continued": true,
+      "users": 17772,
+      "returned": 1553,
+      "percent": 8.738465001125366
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 0,
+      "metric": "D7",
+      "continued": false,
+      "users": 625,
+      "returned": 3,
+      "percent": 0.48
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 0,
+      "metric": "D7",
+      "continued": true,
+      "users": 17421,
+      "returned": 719,
+      "percent": 4.127202801216922
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 30,
+      "metric": "D1",
+      "continued": false,
+      "users": 587,
+      "returned": 16,
+      "percent": 2.72572402044293
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 30,
+      "metric": "D1",
+      "continued": true,
+      "users": 16655,
+      "returned": 1469,
+      "percent": 8.82017412188532
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 30,
+      "metric": "D7",
+      "continued": false,
+      "users": 581,
+      "returned": 3,
+      "percent": 0.5163511187607573
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 30,
+      "metric": "D7",
+      "continued": true,
+      "users": 16518,
+      "returned": 684,
+      "percent": 4.140937159462404
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 60,
+      "metric": "D1",
+      "continued": false,
+      "users": 577,
+      "returned": 15,
+      "percent": 2.5996533795493932
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 60,
+      "metric": "D1",
+      "continued": true,
+      "users": 16265,
+      "returned": 1422,
+      "percent": 8.742699047033508
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 60,
+      "metric": "D7",
+      "continued": false,
+      "users": 572,
+      "returned": 3,
+      "percent": 0.5244755244755245
+    },
+    {
+      "session_gap_min": 15,
+      "boundary_offset_days": 60,
+      "metric": "D7",
+      "continued": true,
+      "users": 16081,
+      "returned": 657,
+      "percent": 4.085566817983956
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 0,
+      "metric": "D1",
+      "continued": false,
+      "users": 626,
+      "returned": 15,
+      "percent": 2.3961661341853033
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 0,
+      "metric": "D1",
+      "continued": true,
+      "users": 17797,
+      "returned": 1555,
+      "percent": 8.737427656346576
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 0,
+      "metric": "D7",
+      "continued": false,
+      "users": 615,
+      "returned": 2,
+      "percent": 0.3252032520325203
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 0,
+      "metric": "D7",
+      "continued": true,
+      "users": 17445,
+      "returned": 719,
+      "percent": 4.12152479220407
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 30,
+      "metric": "D1",
+      "continued": false,
+      "users": 577,
+      "returned": 14,
+      "percent": 2.4263431542461005
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 30,
+      "metric": "D1",
+      "continued": true,
+      "users": 16678,
+      "returned": 1470,
+      "percent": 8.814006475596594
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 30,
+      "metric": "D7",
+      "continued": false,
+      "users": 571,
+      "returned": 2,
+      "percent": 0.3502626970227671
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 30,
+      "metric": "D7",
+      "continued": true,
+      "users": 16541,
+      "returned": 684,
+      "percent": 4.135179251556738
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 60,
+      "metric": "D1",
+      "continued": false,
+      "users": 567,
+      "returned": 13,
+      "percent": 2.292768959435626
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 60,
+      "metric": "D1",
+      "continued": true,
+      "users": 16288,
+      "returned": 1422,
+      "percent": 8.730353634577604
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 60,
+      "metric": "D7",
+      "continued": false,
+      "users": 562,
+      "returned": 2,
+      "percent": 0.35587188612099646
+    },
+    {
+      "session_gap_min": 30,
+      "boundary_offset_days": 60,
+      "metric": "D7",
+      "continued": true,
+      "users": 16104,
+      "returned": 658,
+      "percent": 4.085941381023348
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 0,
+      "metric": "D1",
+      "continued": false,
+      "users": 619,
+      "returned": 14,
+      "percent": 2.261712439418417
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 0,
+      "metric": "D1",
+      "continued": true,
+      "users": 17821,
+      "returned": 1547,
+      "percent": 8.680769878233544
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 0,
+      "metric": "D7",
+      "continued": false,
+      "users": 608,
+      "returned": 2,
+      "percent": 0.32894736842105265
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 0,
+      "metric": "D7",
+      "continued": true,
+      "users": 17469,
+      "returned": 721,
+      "percent": 4.1273112370484855
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 30,
+      "metric": "D1",
+      "continued": false,
+      "users": 570,
+      "returned": 13,
+      "percent": 2.280701754385965
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 30,
+      "metric": "D1",
+      "continued": true,
+      "users": 16701,
+      "returned": 1462,
+      "percent": 8.753966828333633
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 30,
+      "metric": "D7",
+      "continued": false,
+      "users": 564,
+      "returned": 2,
+      "percent": 0.3546099290780142
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 30,
+      "metric": "D7",
+      "continued": true,
+      "users": 16564,
+      "returned": 684,
+      "percent": 4.1294373339773
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 60,
+      "metric": "D1",
+      "continued": false,
+      "users": 560,
+      "returned": 12,
+      "percent": 2.142857142857143
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 60,
+      "metric": "D1",
+      "continued": true,
+      "users": 16311,
+      "returned": 1415,
+      "percent": 8.675127214763043
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 60,
+      "metric": "D7",
+      "continued": false,
+      "users": 555,
+      "returned": 2,
+      "percent": 0.36036036036036034
+    },
+    {
+      "session_gap_min": 60,
+      "boundary_offset_days": 60,
+      "metric": "D7",
+      "continued": true,
+      "users": 16127,
+      "returned": 658,
+      "percent": 4.080114094375891
+    }
+  ],
+  "caveat": "Общая граница и одинаковость сдвига времени не подтверждены; цифры условные. Проект основан на публичном исследовании, не на эксперименте."
+}
